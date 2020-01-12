@@ -1,0 +1,30 @@
+body{
+	grid-template-rows : 20vh auto 10vh;
+}
+
+img.image{
+	padding-top: -1vh;
+	width: 65vw;
+	height: 15vh;
+	margin-left: 2.5vw;
+}
+
+.cards{
+	grid-template-columns: auto;
+}
+
+.card{
+	box-shadow: 1px 6px grey;
+    margin: 25px auto;
+	width: 70vw;
+}
+
+.title{
+	padding-top: -1vh;
+}
+
+.description{
+	 font-size: 3.6vmin;
+	 padding-left: 2vw;
+}
+

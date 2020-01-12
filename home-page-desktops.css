@@ -1,0 +1,22 @@
+img.image{
+	width: 23vw;
+	height: 15vh;
+	margin-left: 1vw;
+}
+
+.cards{
+	grid-template-columns: auto auto auto;
+}
+
+.card{
+	box-shadow: 2px 2px grey;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10vh 15vh 5vh auto;
+    width: 25vw;
+}
+
+.description{
+	 font-size: 2.5vmin;
+}
