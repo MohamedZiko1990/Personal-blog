@@ -1,22 +1,23 @@
-img.image{
-	width: 35vw;
-	height: 15vh;
-	margin-left: 2.5vw;
+img.image {
+  width: 200px;
+  height: 130px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
 }
 
-.cards{
-	grid-template-columns: 40vw 40vw;
+.cards {
+  grid-template-columns: auto auto;
 }
 
-.card{
-	box-shadow: 2px 2px grey;
-    margin: 25px auto;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 10vh 15vh 5vh auto;
-    width: 40vw;
+.card {
+  box-shadow: 2px 2px grey;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 10vh 15vh 5vh auto;
+  width: 215px;
 }
 
-.description{
-	 font-size: 2.5vmin;
+.description {
+  font-size: 16px;
 }
