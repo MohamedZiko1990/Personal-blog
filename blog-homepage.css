@@ -26,8 +26,8 @@ form {
 }
 
 form button {
-  background-color: red;
-  color: white;
+  background-color: #ff0000;
+  color: #ffffff;
 }
 
 ul {
@@ -40,12 +40,12 @@ ul {
 
 li {
   margin-left: 10px;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #ffffff;
+  color: #ffffff;
 }
 
 blockquote {
-  color: white;
+  color: #ffffff;
 }
 
 nav.navbar {
@@ -59,20 +59,20 @@ a.nav-buttons {
 }
 
 img.image {
-  border: 2px solid black;
+  border: 2px solid #000000;
   border-radius: 10%;
 }
 
 .head {
   background-color: #000000;
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #ff0000;
   display: grid;
   grid-area: hd;
 }
 
 .card:hover {
-  border: 5px solid black;
-  box-shadow: 10px 10px red;
+  border: 5px solid #000000;
+  box-shadow: 10px 10px #ff0000;
   opacity: 0.5;
   transition: 0.6s;
 }
@@ -91,7 +91,7 @@ img.image {
 }
 
 .card {
-  border: 1px solid black;
+  border: 1px solid #000000;
   background-color: #ebebe0;
   border-radius: 10%;
 }
@@ -114,6 +114,6 @@ img.image {
 
 .foot {
   background-color: #000000;
-  border-top: 3px solid red;
+  border-top: 3px solid #ff0000;
   grid-area: ft;
 }

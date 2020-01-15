@@ -15,7 +15,7 @@ img.image {
 }
 
 .card {
-  box-shadow: 1px 6px grey;
+  box-shadow: 1px 6px #808080;
   margin: 25px auto;
   width: 200px;
 }

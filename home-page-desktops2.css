@@ -10,7 +10,7 @@ img.image {
 }
 
 .card {
-  box-shadow: 2px 2px grey;
+  box-shadow: 2px 2px #808080;
   margin: 25px auto;
   display: grid;
   grid-template-columns: auto;
