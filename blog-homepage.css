@@ -118,3 +118,17 @@ img.image {
   border-top: 3px solid #ff0000;
   grid-area: ft;
 }
+
+button.see-more {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+button.see-more {
+  background-color: #ff0000;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
