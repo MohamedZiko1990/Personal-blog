@@ -2,6 +2,28 @@ body {
   grid-template-rows: 20vh auto 10vh;
 }
 
+div.nav-right {
+  padding-top: 10px;
+}
+
+div.nav-left {
+  padding-top: 10px;
+}
+
+form {
+  font-size: 14px;
+  width: 100px;
+}
+
+form button {
+  font-size: 14px;
+}
+
+li {
+  font-size: 16px;
+  width: 60px;
+}
+
 img.image {
   padding-top: -1vh;
   width: 180px;
@@ -26,4 +48,7 @@ img.image {
 
 .description {
   font-size: 14px;
+}
+blockquote {
+  font-size: 16px;
 }

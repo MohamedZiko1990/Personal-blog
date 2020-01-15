@@ -16,13 +16,13 @@ body {
     "ft ft";
 }
 
+div.nav-left {
+  padding-right: 10px;
+}
+
 form {
   display: flex;
   flex-direction: column;
-  margin-top: 1vh;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  width: 35vw;
 }
 
 form button {
@@ -39,8 +39,10 @@ ul {
 }
 
 li {
-  margin-left: 10px;
+  margin-left: 15px;
+  text-align: center;
   border: 2px solid #ffffff;
+  box-shadow: 1px 2px #ffffff;
   color: #ffffff;
 }
 
@@ -51,7 +53,6 @@ blockquote {
 nav.navbar {
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
 }
 
 a.nav-buttons {
