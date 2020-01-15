@@ -5,6 +5,28 @@ img.image {
   margin-right: 10px;
 }
 
+div.nav-right {
+  padding-top: 30px;
+}
+
+div.nav-left {
+  padding-top: 30px;
+}
+
+form {
+  font-size: 18px;
+  width: 500px;
+}
+
+form button {
+  font-size: 18px;
+}
+
+li {
+  font-size: 22px;
+  width: 120px;
+}
+
 .cards {
   grid-template-columns: auto auto auto auto;
 }
@@ -20,4 +42,8 @@ img.image {
 
 .description {
   font-size: 20px;
+}
+
+blockquote {
+  font-size: 22px;
 }
