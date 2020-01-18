@@ -1,6 +1,6 @@
 img.image {
   width: 230px;
-  height: 155px;
+  height: 18vh;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -36,12 +36,17 @@ li {
   margin: 25px auto;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 10vh 15vh 5vh auto;
+  grid-template-rows: 10vh 20vh 5vh auto;
   width: 250px;
 }
 
+.title {
+  height: 8vh;
+  margin-bottom: 1vh;
+}
+
 .info {
-  margin-top: 35px;
+  margin-top: 1.5vh;
 }
 
 .description {

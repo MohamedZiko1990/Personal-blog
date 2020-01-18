@@ -9,7 +9,7 @@ body {
   font-family: Merriweather, Times, serif;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 15vh auto 10vh;
+  grid-template-rows: 17vh auto 10vh;
   grid-template-areas:
     "hd hd"
     "main main"
