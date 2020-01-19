@@ -1,16 +1,9 @@
-img.image {
-  width: 230px;
-  height: 18vh;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 div.nav-right {
-  padding-top: 30px;
+  padding-top: 1.5vh;
 }
 
 div.nav-left {
-  padding-top: 30px;
+  padding-top: 1.5vh;
 }
 
 form {
@@ -23,8 +16,8 @@ form button {
 }
 
 li {
-  font-size: 22px;
-  width: 120px;
+  font-size: 20px;
+  width: 80px;
 }
 
 .cards {
@@ -38,6 +31,13 @@ li {
   grid-template-columns: auto;
   grid-template-rows: 10vh 20vh 5vh auto;
   width: 250px;
+}
+
+img.image {
+  width: 230px;
+  height: 18vh;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .title {
