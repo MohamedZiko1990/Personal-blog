@@ -1,15 +1,14 @@
-/* @import "blog-post-mobiles.css" screen and (max-width: 480px);
-@import "blog-post-tablets.css" screen and (min-width: 481px) and
-  (max-width: 768px);
-@import "blog-post-desktops.css" screen and (min-width: 769px) and
-  (max-width: 1280px);
-@import "blog-post-desktops2.css" screen and (min-width: 1280px); */
+@import "blog-post-mobiles.css" screen and (max-width: 530px);
+
+@import "blog-post-tablets.css" screen and (min-width: 531px) and
+  (max-width: 1024px);
+
+@import "blog-post-desktops.css" screen and (min-width: 1024px);
 
 body {
   font-family: Merriweather, Times, serif;
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: 14vh 74vh 10vh;
   grid-template-areas:
     "hd hd hd hd"
     "main main main main"
@@ -22,12 +21,19 @@ body {
   display: grid;
   grid-area: hd;
 }
+
 ul.nav-links {
   display: flex;
   width: 150px;
   padding-left: 2px;
-  margin-top: 30px;
+  margin-top: 4vh;
   list-style: none;
+}
+
+ul.infocard-items {
+  list-style: none;
+  text-align: left;
+  padding-left: 15px;
 }
 
 li.nav-button {
@@ -42,23 +48,11 @@ a.nav-buttons {
   text-decoration: none;
 }
 
-div.nav-left {
-  padding-right: 10px;
-}
-
 section {
   grid-area: main;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   background-image: url("Bg-masthead.jpg");
   background-size: cover;
   background-position: center;
-}
-
-img#avatar {
-  width: 200px;
-  height: 200px;
 }
 
 div.card {
@@ -69,12 +63,22 @@ div.card {
   padding-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 400px;
-  height: 500px;
+}
+
+button.btn {
+  background-color: #ff0000;
+  color: #ebebe0;
+}
+
+a.social-buttons {
+  text-decoration: none;
+  color: #ebebe0;
 }
 
 blockquote {
   color: #ffffff;
+  margin-top: 1.5vh;
+  margin-left: 20px;
 }
 
 .foot {
