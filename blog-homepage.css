@@ -6,7 +6,7 @@
 @import "home-page-desktops2.css" screen and (min-width: 1280px);
 
 body {
-  font-family: Merriweather, Times, serif;
+  font-family: Poppins, Times, serif;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 17vh auto 10vh;
