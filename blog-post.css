@@ -6,7 +6,7 @@
 @import "blog-post-desktops.css" screen and (min-width: 1024px);
 
 body {
-  font-family: Merriweather, Times, serif;
+  font-family: Poppins, Times, serif;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-areas:
