@@ -50,7 +50,7 @@ a.nav-buttons {
 
 section {
   grid-area: main;
-  background-image: url("Bg-masthead.jpg");
+  background-image: url("../pictures/bg-masthead.jpg");
   background-size: cover;
   background-position: center;
 }

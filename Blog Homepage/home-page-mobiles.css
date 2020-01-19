@@ -1,0 +1,54 @@
+body {
+  grid-template-rows: 20vh auto 10vh;
+}
+
+div.nav-right {
+  padding-top: 10px;
+}
+
+div.nav-left {
+  padding-top: 10px;
+}
+
+form {
+  font-size: 14px;
+  width: 100px;
+}
+
+form button {
+  font-size: 14px;
+}
+
+li {
+  font-size: 16px;
+  width: 60px;
+}
+
+img.image {
+  padding-top: -1vh;
+  width: 180px;
+  height: 90px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cards {
+  grid-template-columns: auto;
+}
+
+.card {
+  box-shadow: 1px 6px #808080;
+  margin: 25px auto;
+  width: 200px;
+}
+
+.title {
+  padding-top: -1vh;
+}
+
+.description {
+  font-size: 14px;
+}
+blockquote {
+  font-size: 16px;
+}
