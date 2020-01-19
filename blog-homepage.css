@@ -113,12 +113,6 @@ img.image {
   padding-right: 1vw;
 }
 
-.foot {
-  background-color: #000000;
-  border-top: 3px solid #ff0000;
-  grid-area: ft;
-}
-
 button.see-more {
   background-color: #ff0000;
   color: #ffffff;
@@ -131,4 +125,10 @@ button.see-more {
   margin-bottom: 10px;
   margin-right: 5px;
   margin-top: 10px;
+}
+
+.foot {
+  background-color: #000000;
+  border-top: 3px solid #ff0000;
+  grid-area: ft;
 }

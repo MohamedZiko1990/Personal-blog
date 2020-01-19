@@ -1,16 +1,9 @@
-img.image {
-  width: 210px;
-  height: 18vh;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 div.nav-right {
-  padding-top: 30px;
+  padding-top: 1.5vh;
 }
 
 div.nav-left {
-  padding-top: 30px;
+  padding-top: 1.5vh;
 }
 
 form {
@@ -38,6 +31,13 @@ li {
   grid-template-columns: auto;
   grid-template-rows: 10vh 20vh 5vh auto;
   width: 230px;
+}
+
+img.image {
+  width: 210px;
+  height: 18vh;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .title {
