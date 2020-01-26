@@ -97,6 +97,10 @@ img.image {
   border-radius: 10%;
 }
 
+figcaption {
+  margin-left: 10px;
+}
+
 .title {
   text-align: center;
 }
